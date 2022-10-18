@@ -83,7 +83,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .gradient-onchange{
-    background-image: url("/images/green-stars-hd.jpg");
+    background-image: url("images\green-stars-hd.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: 0px;
@@ -92,7 +92,7 @@ body {
 
 /************IMAGEN DE PORTADA***************/
 .page {
-    background-image: url("/images/green-stars-hd.jpg");
+    background-image: url("images\green-stars-hd.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 1400px 650px;
@@ -285,7 +285,7 @@ body {
 /***********************FOOTER***********************/
 .page-footer {
     padding-top: 32px;
-    background-image: url("/images/green-stars-hd.jpg");
+    background-image: url("images\green-stars-hd.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-top: 1px solid #ddd;
