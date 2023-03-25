@@ -112,8 +112,6 @@ body {
     z-index: 3;
 }
 
-/**********RECORTE**********/
-
 /************CONTENIDO*****************/
 .cv-block {
     padding-bottom: 60px;
@@ -351,43 +349,4 @@ body {
 
 #icon-linkedin:hover {
     opacity: 1;
-}
-
-/***********************MEDIA QUERYS**************************/
-@media (min-width:780px){
-    .cv-block.info {
-        padding-top: 100px;
-    }
-}
-
-
-@media (min-width: 768px) {
-    .cv-block {
-        padding-bottom: 120px;
-        padding-top: 120px;
-    }
-
-    .cv-block.info .group .period {
-        float: right;
-    }
-}
-
-@media (min-width: 576px) {
-    .navbar {
-        padding-top: 1.2rem;
-        padding-bottom: 1.2rem;
-    }
-
-    .portfolio-navbar.fixed-top+.page {
-        padding-top: 6rem;
-    }
-    .cv-block.info {
-        padding-top: 100px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .iconos{
-        display: none;
-    }
 }

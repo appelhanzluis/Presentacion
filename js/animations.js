@@ -1,4 +1,6 @@
 AOS.init();
+
+/*Magic Animations Library*/
 function containerMain(){
     let containerPrincipal = document.querySelector('.page');
     containerPrincipal.classList.add('magictime', 'vanishIn');
@@ -33,6 +35,7 @@ function textoPrincipal() {
     textoInicio.classList.add('magictime', 'vanishIn');
 }
 setTimeout(textoPrincipal, 4000);
+
 
 function cambiarColorNav() {
     let navigationBar = document.querySelector(".gradient");
